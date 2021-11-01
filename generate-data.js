@@ -47,3 +47,5 @@ for (let orderIdx = 0; orderIdx <= MAX_NUM_PARENT_RECORDS; orderIdx++) {
 fs.writeFile("data.json", JSON.stringify(data), () => {
   console.log("Data generation complete");
 });
+
+//fetch data from json

@@ -5,9 +5,14 @@
   "main": "generate-data.js",
   "private": false,
   "scripts": {
-    "generate-data": "node generate-data.js"
+    "generate-data": "node generate-data.js",
+    "start": "webpack-dev-server --mode development"
   },
   "devDependencies": {
-    "faker": "5.5.3"
+    "faker": "5.5.3",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "yarn": "^1.22.17"
   }
 }
